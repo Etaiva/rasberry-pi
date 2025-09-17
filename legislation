@@ -1,1 +1,31 @@
+There’s no legislation in South Africa that specifically mentions “Raspberry Pi” by name—but its use falls under broader legal frameworks governing **IoT devices**, **data protection**, and **radio frequency compliance**. Here’s a breakdown of what matters most for governance-aligned deployments:
 
+---
+
+### ⚖️ Key Legal Considerations for Raspberry Pi Use in South Africa
+
+#### 🛡️ 1. **Data Protection – POPIA**
+If your Raspberry Pi collects, stores, or transmits personal data (e.g. via sensors, cameras, or network monitoring), it must comply with the **Protection of Personal Information Act (POPIA)**:
+- ✅ Obtain user consent before collecting personal data  
+- 🔐 Implement reasonable security safeguards  
+- 🌍 Ensure lawful cross-border data transfers if cloud services are involved
+
+#### 🔒 2. **Cybersecurity & Device Integrity**
+IoT devices like Raspberry Pi are vulnerable to exploitation. Under POPIA and general cybersecurity principles:
+- You must take **reasonable measures** to prevent unauthorized access or data breaches  
+- In case of a breach, notify both the regulator and affected individuals
+
+#### 📡 3. **Radio Frequency & Hardware Certification – ICASA**
+Before selling or deploying Raspberry Pi boards with wireless capabilities (e.g. Wi-Fi, Bluetooth), they must be approved by **ICASA** (Independent Communications Authority of South Africa):
+- Raspberry Pi 3 Model B+ and newer require ICASA certification for legal distribution  
+- DIY use is generally permitted, but commercial deployment needs compliance
+
+---
+
+### 🧠 Strategic Governance Tip  
+If you're using Raspberry Pi for edge-based compliance, ESG monitoring, or stakeholder education, consider bundling your deployment with:
+- A POPIA compliance checklist  
+- ICASA certification reference (if applicable)  
+- A modular risk register for IoT governance
+
+Would you like a governance-aligned deployment template or stakeholder briefing kit for Raspberry Pi use? I can scaffold one for GitHub or boardroom presentation.
